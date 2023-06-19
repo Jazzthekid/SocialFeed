@@ -1,0 +1,37 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .post h3 {
+    margin: 0;
+  }
+  
+  .post-content {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .post-actions {
+    display: flex;
+  }
+  
+  .like-button,
+  .dislike-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .liked {
+    color: green;
+  }
+  
+  .disliked {
+    color: red;
+  }
+  

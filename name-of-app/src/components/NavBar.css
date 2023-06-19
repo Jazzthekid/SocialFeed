@@ -1,0 +1,20 @@
+
+.navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .navbar-item {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .navbar-item-black {
+    color: black;
+  }
+  
+  .navbar-item-red {
+    color: red;
+  }
+  
